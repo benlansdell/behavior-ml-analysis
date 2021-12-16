@@ -1,0 +1,20 @@
+Observation id,094126-094745,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210714T094126-094745.avi.re-encoded.1600px.16265k.avi,,,,,,,
+,,,,,,,,
+Observation date,2021-08-04 12:53:24,,,,,,,
+,,,,,,,,
+Description,,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Behavioral category,Comment,Status
+42.925,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210714T094126-094745.avi.re-encoded.1600px.16265k.avi,379.030,30.0,adult,interact,,,START
+43.425,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210714T094126-094745.avi.re-encoded.1600px.16265k.avi,379.030,30.0,adult,interact,,,STOP
+347.253,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210714T094126-094745.avi.re-encoded.1600px.16265k.avi,379.030,30.0,adult,interact,,,START
+348.254,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210714T094126-094745.avi.re-encoded.1600px.16265k.avi,379.030,30.0,adult,interact,,,STOP

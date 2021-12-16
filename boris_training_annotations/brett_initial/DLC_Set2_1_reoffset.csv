@@ -1,0 +1,46 @@
+Observation id,1,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,,,,,,,
+,,,,,,,,
+Observation date,2021-07-23 13:23:27,,,,,,,
+,,,,,,,,
+Description,,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Behavioral category,Comment,Status
+45.975,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+48.9,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+52.375,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+53.175,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+55.301,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+61.975,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+62.775,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+63.025,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+77.125,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+77.675,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+102.1,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+102.375,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+116.475,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+117.525,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+125.775,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+127.625,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+239.95,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+241.0,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+257.625,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+258.075,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+298.3,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+298.725,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+325.3,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+325.75,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+344.1,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+344.55,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+348.125,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+348.8,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP
+378.975,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,START
+379.425,/home/bteubner/projects/dlc_projects/pilot_study-Brett-2021-07-19/videos/e3v813a-20210714T091732-092358.avi.re-encoded.1600px.16265k.avi,1897.030,30.0,adult,i,,,STOP

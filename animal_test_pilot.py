@@ -49,8 +49,9 @@ resolution = (1200, 1600)        # (tuple) HxW in pixels
 
 #Our training data
 tracking_files = sorted(glob('./dlc_training_tracks/*improved.csv'))
-boris_files = sorted(glob('./boris_training_annotations/*.csv'))
 video_files = sorted(glob('./dlc_training_videos/*.avi'))
+
+boris_files = sorted(glob('./boris_training_annotations/brett_initial/*.csv'))
 
 #Our test data
 test_tracking_files = sorted(glob('./all_videos/*DLC_dlcrnetms5_pilot_studySep24shuffle1_100000_el_filtered.csv'))
@@ -132,7 +133,7 @@ dataset.save('./analysis/dataset_training.pkl')
 test_dataset.save('./analysis/dataset_test.pkl')
 
 #Make videos of performance in training data
-dataset.make_movie(['label', 'prediction'], './analysis/videos/training/')
+dataset.make_movie({'label':'invest.', 'prediction':'predicted invest.'}, './analysis/videos/training/')
 
 #Make videos of predictions in test data
-test_dataset.make_movie(['prediction'], './analysis/videos/test/')
+test_dataset.make_movie({'prediction':'predicted invest.'}, './analysis/videos/test/')

@@ -1,0 +1,52 @@
+Observation id,DLC1,,,,,,,
+,,,,,,,,
+Media file(s),,,,,,,,
+,,,,,,,,
+Player #1,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,,,,,,,
+,,,,,,,,
+Observation date,2021-07-12 14:35:58,,,,,,,
+,,,,,,,,
+Description,,,,,,,,
+,,,,,,,,
+Time offset (s),0.0,,,,,,,
+,,,,,,,,
+independent variables,,,,,,,,
+variable,value,,,,,,,
+,,,,,,,,
+Time,Media file path,Total length,FPS,Subject,Behavior,Behavioral category,Comment,Status
+20.400,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+22.150,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+37.900,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+39.900,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+41.900,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+45.650,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+50.150,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+51.150,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+51.650,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+55.150,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+57.925,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+61.175,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+62.175,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+62.675,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+80.250,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+81.000,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+88.250,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+88.775,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+257.325,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+258.325,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+260.825,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+261.575,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+261.825,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+263.075,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+263.825,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+265.075,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+280.850,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+281.350,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+283.350,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+284.900,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+285.400,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+287.900,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+290.900,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+291.650,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
+331.475,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,START
+332.750,C:/Clever Sys Inc/TopScan/Video/Donnie/e3v813a-20210610T120637-121213.avi,336.000,30.0,adult,interact,,,STOP
