@@ -1,0 +1,131 @@
+    # Project definitions (do not edit)
+Task: pilot_study
+scorer: Brett
+date: Sep24
+multianimalproject: true
+identity: true
+
+    # Project path (change when moving around)
+project_path: /home/blansdel/projects/brett_dlc/animal_pilot/dlc_trained_models/pilot_study-Brett-2021-09-24
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T091732-092358_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T092722-093422_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T094126-094745_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T095234-095803_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T095950-100613_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T120637-121213_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T121558-122141_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T122332-122642_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T122758-123309_cropped.avi
+  : crop: 0, 400, 0, 400
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T123521-124106_cropped.avi
+  : crop: 0, 400, 0, 400
+individuals:
+- adult
+- juvenile
+uniquebodyparts: []
+multianimalbodyparts:
+- nose
+- leftear
+- rightear
+- neck
+- lefthip
+- righthip
+- tail
+skeleton:
+- - nose
+  - leftear
+- - neck
+  - lefthip
+- - nose
+  - neck
+- - lefthip
+  - tail
+- - leftear
+  - lefthip
+- - rightear
+  - neck
+- - nose
+  - rightear
+- - lefthip
+  - righthip
+- - righthip
+  - tail
+- - neck
+  - tail
+- - rightear
+  - righthip
+- - leftear
+  - neck
+- - neck
+  - righthip
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 100
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 4
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: true
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+video_sets_original:
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T091732-092358.avi:
+    crop: 0, 1600, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T092722-093422.avi:
+    crop: 0, 1600, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T094126-094745.avi:
+    crop: 0, 1600, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T095234-095803.avi:
+    crop: 0, 1600, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210714T095950-100613.avi:
+    crop: 0, 1600, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T120637-121213.avi:
+    crop: 0, 1300, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T121558-122141.avi:
+    crop: 0, 1300, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T122332-122642.avi:
+    crop: 0, 1300, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T122758-123309.avi:
+    crop: 0, 1300, 0, 1200
+  /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T123521-124106.avi:
+    crop: 0, 1300, 0, 1200
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/to_analyze/e3v813a-20210610T120637-121213.avi
+  : crop: 0, 1300, 0, 1200
+  ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/to_analyze_1/e3v813a-20210610T120637-121213.avi
+  : crop: 0, 1300, 0, 1200

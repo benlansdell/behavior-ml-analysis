@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/dlc-models/iteration-4/pilot_studySep24-trainset95shuffle1/train/snapshot-100000"
+all_model_checkpoint_paths: "/home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/dlc-models/iteration-4/pilot_studySep24-trainset95shuffle1/train/snapshot-80000"
+all_model_checkpoint_paths: "/home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/dlc-models/iteration-4/pilot_studySep24-trainset95shuffle1/train/snapshot-85000"
+all_model_checkpoint_paths: "/home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/dlc-models/iteration-4/pilot_studySep24-trainset95shuffle1/train/snapshot-90000"
+all_model_checkpoint_paths: "/home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/dlc-models/iteration-4/pilot_studySep24-trainset95shuffle1/train/snapshot-95000"
+all_model_checkpoint_paths: "/home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/dlc-models/iteration-4/pilot_studySep24-trainset95shuffle1/train/snapshot-100000"
