@@ -8,6 +8,8 @@ These models include:
 
 The DLC labeling tracks 7 points on the mouse, which matches the multi-agent behavior analysis challenge [here](https://www.aicrowd.com/challenges/multi-agent-behavior-representation-modeling-measurement-and-applications/).
 
+![mouselabels.png](mouselabels.png)
+
 Also includes notebooks for DLC inference. Once inference is performed, also includes notebooks that can perform supervised or unsupervised learning and other downstream tasks. Some of these are generic, to be adapted to your own project, and some are for specific projects. 
 
 ## To use
