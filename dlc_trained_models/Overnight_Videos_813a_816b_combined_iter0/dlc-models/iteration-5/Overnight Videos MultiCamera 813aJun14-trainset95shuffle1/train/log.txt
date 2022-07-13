@@ -1,0 +1,279 @@
+2022-06-23 15:39:14 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6]],
+ 'all_joints_names': ['nose',
+                      'leftear',
+                      'rightear',
+                      'neck',
+                      'lefthip',
+                      'righthip',
+                      'tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-5/UnaugmentedDataSet_Overnight Videos '
+            'MultiCamera 813aJun14/Overnight Videos MultiCamera '
+            '813a_Bteubner95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': '/home/blansdel/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-5/UnaugmentedDataSet_Overnight '
+                'Videos MultiCamera 813aJun14/Documentation_data-Overnight '
+                'Videos MultiCamera 813a_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': True,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'resnet_50',
+ 'num_idchannel': 0,
+ 'num_joints': 7,
+ 'num_limbs': 21,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [4, 5],
+                             [4, 6],
+                             [5, 6]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/home/blansdel/projects/behavior/dlc_projects/overnight_videos/Overnight_Videos_813a_816b_combined_iter0',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/blansdel/projects/behavior/dlc_projects/overnight_videos/Overnight_Videos_813a_816b_combined_iter0/dlc-models/iteration-5/Overnight '
+                    'Videos MultiCamera '
+                    '813aJun14-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-06-23 15:44:53 iteration: 1000 loss: 0.0122 scmap loss: 0.0100 locref loss: 0.0004 limb loss: 0.0018 lr: 0.0001
+2022-06-23 15:50:22 iteration: 2000 loss: 0.0047 scmap loss: 0.0042 locref loss: 0.0001 limb loss: 0.0004 lr: 0.0001
+2022-06-23 15:55:49 iteration: 3000 loss: 0.0037 scmap loss: 0.0033 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+2022-06-23 16:01:16 iteration: 4000 loss: 0.0032 scmap loss: 0.0029 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+2022-06-23 16:06:43 iteration: 5000 loss: 0.0030 scmap loss: 0.0027 locref loss: 0.0001 limb loss: 0.0002 lr: 0.0001
+2022-06-23 16:12:10 iteration: 6000 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0002 lr: 0.0001
+2022-06-23 16:17:38 iteration: 7000 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0002 lr: 0.0001
+2022-06-23 16:23:06 iteration: 8000 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0002 lr: 5e-05
+2022-06-23 16:28:36 iteration: 9000 loss: 0.0022 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2022-06-23 16:34:07 iteration: 10000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2022-06-23 16:39:38 iteration: 11000 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2022-06-23 16:45:09 iteration: 12000 loss: 0.0020 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 5e-05
+2022-06-23 16:50:41 iteration: 13000 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 16:56:12 iteration: 14000 loss: 0.0017 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:01:41 iteration: 15000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:07:13 iteration: 16000 loss: 0.0017 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:12:42 iteration: 17000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:18:17 iteration: 18000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:23:54 iteration: 19000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:29:34 iteration: 20000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:35:12 iteration: 21000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:40:43 iteration: 22000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:46:15 iteration: 23000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:51:46 iteration: 24000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 17:57:17 iteration: 25000 loss: 0.0015 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:02:49 iteration: 26000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:08:25 iteration: 27000 loss: 0.0015 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:14:05 iteration: 28000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:19:44 iteration: 29000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:25:18 iteration: 30000 loss: 0.0015 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:30:52 iteration: 31000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:36:22 iteration: 32000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:41:53 iteration: 33000 loss: 0.0015 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:47:25 iteration: 34000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:52:57 iteration: 35000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 18:58:30 iteration: 36000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:04:01 iteration: 37000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:09:32 iteration: 38000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:15:00 iteration: 39000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:20:27 iteration: 40000 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:25:55 iteration: 41000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:31:23 iteration: 42000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:36:50 iteration: 43000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:42:19 iteration: 44000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:47:46 iteration: 45000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:53:13 iteration: 46000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 19:58:41 iteration: 47000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:04:07 iteration: 48000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:09:35 iteration: 49000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:15:02 iteration: 50000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:20:30 iteration: 51000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:25:57 iteration: 52000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:31:25 iteration: 53000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:36:52 iteration: 54000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:42:20 iteration: 55000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:47:47 iteration: 56000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:53:14 iteration: 57000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 20:58:42 iteration: 58000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:04:09 iteration: 59000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:09:36 iteration: 60000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:15:03 iteration: 61000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:20:30 iteration: 62000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:25:56 iteration: 63000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:31:22 iteration: 64000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:36:48 iteration: 65000 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:42:15 iteration: 66000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:47:41 iteration: 67000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:53:07 iteration: 68000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 21:58:34 iteration: 69000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 22:04:00 iteration: 70000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 22:09:27 iteration: 71000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 22:14:54 iteration: 72000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 22:20:19 iteration: 73000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 22:25:45 iteration: 74000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-06-23 22:31:09 iteration: 75000 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 1e-05
+2022-07-11 11:07:52 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6]],
+ 'all_joints_names': ['nose',
+                      'leftear',
+                      'rightear',
+                      'neck',
+                      'lefthip',
+                      'righthip',
+                      'tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-5/UnaugmentedDataSet_Overnight Videos '
+            'MultiCamera 813aJun14/Overnight Videos MultiCamera '
+            '813a_Bteubner95shuffle1.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': '/home/blansdel/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-5/UnaugmentedDataSet_Overnight '
+                'Videos MultiCamera 813aJun14/Documentation_data-Overnight '
+                'Videos MultiCamera 813a_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': True,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'resnet_50',
+ 'num_idchannel': 0,
+ 'num_joints': 7,
+ 'num_limbs': 21,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [4, 5],
+                             [4, 6],
+                             [5, 6]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/home/blansdel/projects/behavior/dlc_projects/overnight_videos/Overnight_Videos_813a_816b_combined_iter0',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/blansdel/projects/behavior/dlc_projects/overnight_videos/Overnight_Videos_813a_816b_combined_iter0/dlc-models/iteration-5/Overnight '
+                    'Videos MultiCamera '
+                    '813aJun14-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

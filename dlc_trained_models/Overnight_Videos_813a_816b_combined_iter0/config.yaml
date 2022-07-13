@@ -1,0 +1,150 @@
+    # Project definitions (do not edit)
+Task: Overnight Videos MultiCamera 813a
+scorer: Bteubner
+date: Jun14
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: /home/blansdel/projects/behavior/dlc_projects/overnight_videos/Overnight_Videos_813a_816b_combined_iter0
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220131T213604_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220201T175829-182657_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220203T002607-005438_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220207T232218-235112_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220208T014730-021626_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220208T224739-232253_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220209T162158-165048_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220210T225410-232240_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220309T194524-195038_cropped.mp4
+  : crop: 0, 1100, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v813a/e3v813a-20220314T212458-213024_cropped.mp4
+  : crop: 0, 1100, 0, 1000
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal10/e3v816b-20220309T181508-182009_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal10/e3v816b-20220309T192017-192534_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal10/e3v816b-20220309T192518-193028_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal10/e3v816b-20220309T200524-201042_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal10/e3v816b-20220310T002105_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal14/e3v816b-20220314T161409-161910_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal14/e3v816b-20220314T185935-190456_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal14/e3v816b-20220314T190936-191503_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal14/e3v816b-20220314T193441-194006_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /media/core/core_operations/ImageAnalysisScratch/Zakharenko/animal-behavior-ml/training/OvernightVideos/e3v816b/Animal14/e3v816b-20220314T235522-000024_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v813a-20220131T213604_cropped.mp4
+  : crop: 0, 1140, 0, 1000
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220309T181508-182009_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220309T192017-192534_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220309T192518-193028_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220309T200524-201042_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220310T002105_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220314T161409-161910_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220314T185935-190456_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220314T190936-191503_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220314T193441-194006_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+  ? /mnt/storage2/blansdel/projects/dlc_training/overnight_videos_sample_by_camera_813a_816b_model1iter1_trainingset/e3v816b-20220314T235522-000024_cropped.mp4
+  : crop: 0, 1170, 0, 1020
+individuals:
+- ind1
+uniquebodyparts: []
+multianimalbodyparts:
+- nose
+- leftear
+- rightear
+- neck
+- lefthip
+- righthip
+- tail
+bodyparts: MULTI!
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 30
+
+    # Plotting configuration
+skeleton:
+- - nose
+  - leftear
+- - neck
+  - lefthip
+- - nose
+  - neck
+- - lefthip
+  - tail
+- - leftear
+  - lefthip
+- - rightear
+  - neck
+- - nose
+  - rightear
+- - lefthip
+  - righthip
+- - righthip
+  - tail
+- - neck
+  - tail
+- - rightear
+  - righthip
+- - leftear
+  - neck
+- - neck
+  - righthip
+skeleton_color: black
+pcutoff: 0.5
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 5
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+default_track_method: ellipse
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining: true

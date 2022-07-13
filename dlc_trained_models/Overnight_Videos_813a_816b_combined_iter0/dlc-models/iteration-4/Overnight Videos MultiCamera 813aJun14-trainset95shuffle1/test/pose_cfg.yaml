@@ -1,0 +1,78 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+all_joints_names:
+- nose
+- leftear
+- rightear
+- neck
+- lefthip
+- righthip
+- tail
+dataset: training-datasets/iteration-4/UnaugmentedDataSet_Overnight Videos MultiCamera
+  813aJun14/Overnight Videos MultiCamera 813a_Bteubner95shuffle1.pickle
+dataset_type: multi-animal-imgaug
+global_scale: 0.8
+init_weights: /home/blansdel/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+location_refinement: true
+locref_smooth: false
+locref_stdev: 7.2801
+minconfidence: 0.01
+multi_stage: true
+net_type: resnet_50
+nmsradius: 5.0
+num_idchannel: 0
+num_joints: 7
+num_limbs: 21
+pairwise_predict: false
+partaffinityfield_graph:
+- - 0
+  - 1
+- - 0
+  - 2
+- - 0
+  - 3
+- - 0
+  - 4
+- - 0
+  - 5
+- - 0
+  - 6
+- - 1
+  - 2
+- - 1
+  - 3
+- - 1
+  - 4
+- - 1
+  - 5
+- - 1
+  - 6
+- - 2
+  - 3
+- - 2
+  - 4
+- - 2
+  - 5
+- - 2
+  - 6
+- - 3
+  - 4
+- - 3
+  - 5
+- - 3
+  - 6
+- - 4
+  - 5
+- - 4
+  - 6
+- - 5
+  - 6
+partaffinityfield_predict: true
+scoremap_dir: test
+sigma: 1
