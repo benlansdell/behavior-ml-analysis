@@ -6,7 +6,7 @@ multianimalproject: true
 identity: true
 
     # Project path (change when moving around)
-project_path: /home/blansdel/projects/brett_dlc/animal_pilot/dlc_trained_models/pilot_study-Brett-2021-09-24
+project_path: /home/blansdel/projects/dlc_training/behavior-ml-analysis/dlc_trained_models/pilot_study-Brett-2021-09-24
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -30,9 +30,12 @@ video_sets:
   : crop: 0, 400, 0, 400
   ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/e3v813a-20210610T123521-124106_cropped.avi
   : crop: 0, 400, 0, 400
+  /home/blansdel/projects/dlc_training/overnight_videos_sample/output000_cropped.mp4:
+    crop: 0, 400, 0, 400
 individuals:
 - adult
 - juvenile
+- ind1
 uniquebodyparts: []
 multianimalbodyparts:
 - nose
@@ -72,7 +75,7 @@ skeleton:
 bodyparts: MULTI!
 start: 0
 stop: 1
-numframes2pick: 100
+numframes2pick: 50
 
     # Plotting configuration
 skeleton_color: black
@@ -84,7 +87,7 @@ colormap: rainbow
     # Training,Evaluation and Analysis configuration
 TrainingFraction:
 - 0.95
-iteration: 4
+iteration: 5
 default_net_type: dlcrnet_ms5
 default_augmenter: multi-animal-imgaug
 snapshotindex: -1
@@ -129,3 +132,5 @@ video_sets_original:
   : crop: 0, 1300, 0, 1200
   ? /home/blansdel/projects/brett_dlc/dlc_projects/pilot_study-Brett-2021-09-24/videos/to_analyze_1/e3v813a-20210610T120637-121213.avi
   : crop: 0, 1300, 0, 1200
+  /home/blansdel/projects/dlc_training/overnight_videos_sample/output000.mp4:
+    crop: 0, 1600, 0, 1200
