@@ -1,0 +1,7 @@
+pandas
+deeplabcut
+behaveml
+tqdm
+matplotlib
+numpy
+scipy
